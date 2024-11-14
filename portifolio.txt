@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu portifólio</title>
+    <link rel="stylesheet"href="body.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Portifolio de Rafael</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#um pouco se dua história">Um pouco da minha história</a></li>
+                <li><a href="#oque mais gosta de fazer">Oque mais gosto de fazer</a></li>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Eduardo Gaspareto e sou Tec em Informatica. Tenho experiência em informática e tenho 17 anos.é um estudante dedicado e comprometido que completou o ensino médio no Centro Estadual de Educação Profissional (CEEP). Durante o período escolar, ele se destacou por sua determinação acadêmica e habilidades excepcionais em precisão no campo. O CEEP, conhecido por seu currículo voltado para a educação técnica e profissional, ofereceu a ele uma base sólida em , preparando-o(a) para enfrentar desafios acadêmicos e profissionais futuros.
+
+                Com um histórico de envolvimento em projetos agrotecnologicos e uma paixão por maquinas agricolas, Eduardo demonstrou um forte senso de responsabilidade e iniciativa. A experiência no CEEP não apenas contribuiu para o desenvolvimento acadêmico, mas também ajudou a moldar suas habilidades práticas e o pensamento crítico.
+                
+                Além do conhecimento técnico adquirido, Eduardo desenvolveu habilidades interpessoais e de liderança ao colaborar com colegas e participar ativamente de oficinas de liderança. Ele está agora pronto(a) para aplicar esse conhecimento e essas habilidades em novos desafios, buscando continuamente oportunidades para crescer e se destacar em Operação de Máquinas Agricolas e Tenlogias de Precisão.**</p>
+        </div>
+    </section>
+    <section id="projetos">
+        <div class="container">
+            <h2>Minha identidade</h2>
+            <div class="galeria">
+                <div class="Minha foto">
+                    <img src="eduardo.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Joguei na base do Colo-Colo</p>
+                </div>
+                <div class="projeto">
+                    <img src="eduardo2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Apoiei o Ivan 11</p>
+                </div>
+                <div class="projeto">
+                    <img src="agroterra.jpg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Trabalhei para AgroTerra Colheitas e Agropecuaria Nishida</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+    
+
